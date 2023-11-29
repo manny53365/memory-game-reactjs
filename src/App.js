@@ -32,9 +32,9 @@ function App() {
       <h1>Magic Match</h1>
       <button onClick={shuffleCards}>New Game</button>
       <div className='card-grid'>
-      {cards.map(card => (
-        <Card key={card.id} card={card}/>
-      ))}
+        {cards.map(card => (
+          <Card key={card.id} card={card}/>
+        ))}
       </div>
     </div>
   );
