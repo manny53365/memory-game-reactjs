@@ -44,9 +44,9 @@ function App() {
             }
           })
         })
-        resetTurn()
+        setTimeout(() => resetTurn(), 1000);
       } else {
-        resetTurn()
+        setTimeout(() => resetTurn(), 1000);
       }
     }
   }, [choiceOne, choiceTwo])
