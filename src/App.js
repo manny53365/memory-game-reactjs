@@ -44,7 +44,7 @@ function App() {
             }
           })
         })
-        setTimeout(() => resetTurn(), 1000);
+        resetTurn();
       } else {
         setTimeout(() => resetTurn(), 1000);
       }
